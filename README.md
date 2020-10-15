@@ -16,5 +16,5 @@ HW2 Version:
 [school server](https://cs.uml.edu/~rabreu/index.html) 
 [Github Pages link](https://paradox05.github.io/HW4/)
 HW4 Version: 
-[school server]() 
+[school server](https://cs.uml.edu/~rabreu/index.html) 
 [Github Pages link](https://paradox05.github.io/HW4/hw2.html)
