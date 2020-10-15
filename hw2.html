@@ -1,0 +1,188 @@
+<!-- 
+HW2
+Name: Roniel Abreu, 
+email: roniel_abreu@student.uml.edu
+Affiliation: I am a senior majoring in computer science and this assignment is for 
+Graphical User Interface programming I with wenjin Zhou
+Date:9/18/20
+Description: This second assignment focuses on making a website that we can use to index
+future assignments and be able to view them here, not only for this class but potentially for
+other classes as well. 
+Citing: Some of the things i used for example the html basic structure i got from
+sitepoint.com, i got something from stack overflow such as the figure tag and figure 
+caption everything else was from resources we learned in class.
+-->
+
+<!--
+    we start with the basic html 5 structure with a head that includes 
+    title, the body which has the header of the page, for most of the content we 
+    add a container class so that each text has the same styling properties
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Roniel Abreu's Website </title>
+        <link rel="stylesheet" href="./css/hw2.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container"> 
+                <h1> <a href ="index.html"> Roniel Abreu</a></h1>
+            </div>  
+            
+            <nav id="menu">
+                <div class="container">
+                    <ul>
+                        <li> <a href="index.html">Home</a> </li>
+                        <li> <a href="hw2about.html">About Me</a> </li>
+                        <li> <a target="_blank" rel="noopener noreferrer" href="https://github.com/paradox05">Github</a> </li>
+                    </ul>
+    
+                </div>        
+            </nav>
+        </header>
+        
+ <!--
+     This is the main part of the website i start it of my making it an id to be
+     able to customize this whole part separetely from the website and be able to 
+     separate it.
+ -->       
+        <main id="main-section">
+            <div class="container">
+                <div id="section">
+                    <h1>Welcome to My website</h1>
+                    <p> This is my website it is part of HW2 where i will 
+                        display the various projects i will do as 
+                        part of the Graphical User interface 
+                        programming I course that i am taking with wenjin zhou, 
+                        below are some past and future projects and some of the assignments i will be working on 
+                        in this class and if you click on one of the hw links at the bottom it will take you to my github repo so you can see the code.
+                    </p>
+                </div>
+            </div>
+
+       
+
+  <!--
+      From here we have 6 hw boxes with images i use the figure tag because it allows for more flexibility with images and older browsers
+      for the hws i havent done i just placed a plaecholder image, but once i do them i will update the images for that HW
+  -->      
+            <div class="hw">
+               <figure class="item">
+                    <h2>HW2</h2>
+                    <img src="img/HW1.png"/>
+                    <figcaption class="caption"> This assignment focuses on making our own website using html 
+                        and css with the tools we have learned so far. 
+                        It involved being able to ssh into our cs.uml.edu account 
+                        and changing permissions on files. This assignment is bascically for creating a website 
+                        that introduces ourselves and can be used for future assignments for the class and any future
+                        projects i may want to add.
+                    </figcaption>
+                </figure>
+            </div>
+        
+            
+        
+            <div class="hw">               
+                <figure class="item">
+                    <h2>HW3</h2>
+                    <img src="img/body.jpeg"/>
+                    <figcaption class="caption"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugit veritatis id quam officiis corrupti, 
+                        adipisci, iusto ducimus molestiae earum maiores 
+                        blanditiis distinctio modi voluptatibus vel dolore 
+                        assumenda laboriosam temporibus quasi.
+                    </figcaption>
+                </figure>
+            </div>
+        
+        
+            <div class="hw">
+                <figure class="item">
+                    <h2>HW4</h2>
+                    <img src="img/body.jpeg"/>
+                    <figcaption class="caption"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugit veritatis id quam officiis corrupti, 
+                        adipisci, iusto ducimus molestiae earum maiores 
+                        blanditiis distinctio modi voluptatibus vel dolore 
+                        assumenda laboriosam temporibus quasi.
+                    </figcaption>
+                </figure>
+            </div>
+       
+        
+            <div class="hw">               
+                <figure class="item">
+                    <h2>HW5</h2>
+                    <img src="img/body.jpeg"/>                   
+                    <figcaption class="caption"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugit veritatis id quam officiis corrupti, 
+                        adipisci, iusto ducimus molestiae earum maiores 
+                        blanditiis distinctio modi voluptatibus vel dolore 
+                        assumenda laboriosam temporibus quasi.
+                    </figcaption>
+                </figure>
+            </div>
+        
+        
+            <div class="hw">
+               <figure class="item">
+                    <h2>HW6</h2>
+                    <img src="img/body.jpeg"/>
+                    <figcaption class="caption"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugit veritatis id quam officiis corrupti, 
+                        adipisci, iusto ducimus molestiae earum maiores 
+                        blanditiis distinctio modi voluptatibus vel dolore 
+                        assumenda laboriosam temporibus quasi.
+                    </figcaption>
+                </figure>
+            </div>
+       
+        
+            <div class="hw">               
+                <figure class="item">
+                    <h2>HW7</h2>
+                    <img src="img/body.jpeg"/>
+                    <figcaption class="caption"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugit veritatis id quam officiis corrupti, 
+                        adipisci, iusto ducimus molestiae earum maiores 
+                        blanditiis distinctio modi voluptatibus vel dolore 
+                        assumenda laboriosam temporibus quasi.
+                    </figcaption>
+                </figure>
+            </div>
+        
+        </main>
+
+<!--
+    for the footer i have the links to be able to go to github for the HW's i have completed 
+    also at the bottom we have the css validator to confirm that our css is validating with no errors.
+-->
+        <footer id="main-footer">
+            <nav id="future">
+                <h3>Future Homework Links</h3>
+                <div class="container">
+                    <ul>
+                        <li> <a target="_blank" rel="noopener noreferrer" href="https://github.com/Paradox05/GUI-1/tree/master/HW2">HW2</a> </li>
+                        <li> <a href="#">HW3</a> </li>
+                        <li> <a href="#">HW4</a> </li>
+                        <li> <a href="#">HW5</a> </li>
+                        <li> <a href="#">HW6</a> </li>
+                        <li> <a href="#">HW7</a> </li>
+                    </ul>  
+                    <p>
+                        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                                alt="Valid CSS!" />
+                        </a>
+                    </p>
+                </div>
+            </nav>
+        </footer>
+
+    </body>
+</html>
