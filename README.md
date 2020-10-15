@@ -1,3 +1,3 @@
 # HW2
 
-example page
+example page [link](google.com)
