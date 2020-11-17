@@ -1,7 +1,6 @@
 How to Run Macro Buddy (PROTOTYPE V1)
 ======
 
-[Download the EXE to run the program]() or
 
 Clone the code or copy and paste it,  make sure python3 is installed in your system.
 
