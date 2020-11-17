@@ -8,17 +8,17 @@ Clone the code or copy and paste it,  make sure python3 is installed in your sys
 ### Modules
 
 Things that should be installed so the program can run
-gfg
-* Tkinter installed
+
+* Tkinter
 * pip
 * Pynput
 * Xterm 
 
 To install them on linux you run these commands in the terminal 
-* sudo apt-get install python3-tk
-* sudo apt-get install python3-pip
-* pip install pynput
-* sudo apt-get install -y xterm
+* ```sudo apt-get install python3-tk```
+* ```sudo apt-get install python3-pip```
+* ```pip3 install pynput```
+* ```sudo apt-get install -y xterm```
 
 Then just run the script by typing ``` python3  macroBuddy.py ```
 
